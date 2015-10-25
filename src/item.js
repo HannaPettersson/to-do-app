@@ -1,8 +1,13 @@
+
 var Item = React.createClass({
 
   render: function() {
-    return
+    return (
+
+      <li>
+      <span className="text">{this.props.text}</span>
+      </li>
+    );
   }
 
-
-})
+});
